@@ -1,34 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+On the website, there are links, each of which is connected to a collection. For instance, the "Offreillimite" link corresponds to the "Offreillimite" collection. By resolving one collection, I could proceed to resolve the other collections. Furthermore, I also do not want to see the sidebar on the homepage
 
-## Getting Started
+Here the example of data
+[ { "Fournisseur": "Orange", "Avis": "203 avis", "Score": 83.94, "Donnees": "5", "Appels": "Appels illimites", "Prix": "29", "Devise": "29", "Image": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg" }, { "Fournisseur": "Free", "Avis": "203 avis", "Score": 83.94, "Donnees": "5", "Appels": "Appels illimitees", "Prix": "29", "Devise": "29", "Image": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg" }, { "Fournisseur": "Bouygues", "Avis": "84 avis", "Score": 73.35, "Donnees": "6", "Appels": "Appels illimitees", "Prix": "39", "Devise": "39", "Image": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg" }, { "Fournisseur": "sfr", "Avis": "84 avis", "Score": 73.35, "Donnees": "6", "Appels": "Appels illimitees", "Prix": "39", "Devise": "39", "Image": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg" }, { "Fournisseur": "Orange", "Avis": "203 avis", "Score": 83.94, "Donnees": "5", "Appels": "Appels illimitees", "Localisation": "France", "Prix": "29", "Devise": "29", "Image": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg" }, { "Fournisseur": "Free", "Avis": "203 avis", "Score": 83.94, "Donnees": "5", "Appels": "Appels illimitees", "Prix": "29", "Devise": "29", "Image": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg" }, { "Fournisseur": "Bouygues", "Avis": "84 avis", "Score": 73.35, "Donnees": "6", "Appels": "Appels illimitees", "Prix": "39", "Devise": "39", "Image": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg" }, { "Fournisseur": "sfr", "Avis": "84 avis", "Score": 73.35, "Donnees": "6", "Appels": "Appels illimitees", "Prix": "39", "Image": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg" } ]
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
